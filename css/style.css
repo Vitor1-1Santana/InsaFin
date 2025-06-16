@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+:root{
+    --bs-primary-bg-subtle: #C04300;
+    
+    --bs-primary: #E35F00;
+    --bs-secondary: #E35F00;
+    
+    
+}
+
+.border-primary{
+    border-color:var(--bs-primary) !important;
+}
+
+
+.btn-primary{
+    background-color: var(--bs-primary);
+    border:var(--bs-primary)
+}
+.btn-primary:hover{
+    background-color: var(--bs-primary);
+    border:var(--bs-primary)
+}
+
+.btn-primary:active{
+    background-color: var(--bs-primary) !important;
+    border:var(--bs-primary)
+}
+
+
+body{
+    align-content: center;
+    text-align: center;
+    background: var(--bs-primary-bg-subtle);
+}
+
+header{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: baseline;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+label{
+    display: none;
+}
+
+
+.form-control{
+    background-color: var(--bs-primary-bg-subtle);
+}
+
+.form-control::placeholder{
+    font-size: medium;
+    text-align: center;
+    color: var(--bs-primary);
+}
